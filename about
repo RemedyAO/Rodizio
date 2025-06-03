@@ -1,0 +1,23 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="Shop.html">Comprar</a></li>
+    </ul>
+    <a href="login.html" class="login-btn">Login</a>
+  </nav>
+  <main class="about">
+    <h1>Sobre Nós</h1>
+    <p>Os nossos restaurantes estão localizados no coração na Vila Alice,Gamek e no Talatona. Fundado para levar a cultura do hambúrguer caseiro a todos, nossas receitas são artesanais com os ingredientes mais frescos e um toque familiar secreto.</p>
+  </main>
+</body>
