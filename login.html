@@ -1,0 +1,39 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="Shop.html">Comprar</a></li>
+    </ul>
+    <a href="login.html" class="login-btn">Login</a>
+  </nav>
+  <main class="login-form">
+    <h1>Login</h1>
+    <form>
+      <input type="text" placeholder="Nome" required />
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Número" onkeypress="return alfabetoRestrito(event)"/>
+      <input type="text" placeholder="Localização" required />
+      <button type="submit">Entrar</button>
+    </form>
+    <script type="text/javascript">
+        function alfabetoRestrito(e){
+            var x = e.which || e.keycode;
+            if((x>= 48 && x <= 57))
+                return true;
+            else
+                return false;
+        }
+    </script>
+  </main>
+</body>
+</html>
